@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hw-mail/static/css/main.b7711531.css",
-    "main.js": "/hw-mail/static/js/main.40b96f16.js",
+    "main.js": "/hw-mail/static/js/main.cb55fc29.js",
     "static/js/787.66cb4309.chunk.js": "/hw-mail/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw-mail/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/hw-mail/index.html",
     "main.b7711531.css.map": "/hw-mail/static/css/main.b7711531.css.map",
-    "main.40b96f16.js.map": "/hw-mail/static/js/main.40b96f16.js.map",
+    "main.cb55fc29.js.map": "/hw-mail/static/js/main.cb55fc29.js.map",
     "787.66cb4309.chunk.js.map": "/hw-mail/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7711531.css",
-    "static/js/main.40b96f16.js"
+    "static/js/main.cb55fc29.js"
   ]
 }
