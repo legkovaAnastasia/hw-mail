@@ -1,25 +1,67 @@
 .sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    align-items: center;
 }
 
 .sidebar.open {
+    width: 20%;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
 }
 
 .background {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 .nav {
+    margin: 10px;
 }
 
 .nav a {
+    float: left;
+    padding-left: 30px;
+
+    margin: 10px;
+    color: black;
+    text-decoration: none;
 }
 
 .nav a:hover {
+    color: lightblue;
 }
 
 .nav a.active {
+    color: dodgerblue;
+    text-decoration: underline 3px dodgerblue;
 }
+.nav a:active{
+    color: cornflowerblue;
+}
+
 .close {
 }
 
 .close img {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    cursor: pointer;
 }
