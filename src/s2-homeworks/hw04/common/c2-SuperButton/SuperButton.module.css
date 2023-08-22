@@ -19,8 +19,11 @@
 }
 
 .secondary {
-opacity: 0.6;
-    border: 1px solid darkgreen;
+/*opacity: 0.6;*/
+
+    background: transparent;
+    border: 2px solid cornflowerblue;
+    color: cornflowerblue;
 }
 
 .default {
@@ -40,7 +43,8 @@ opacity: 0.6;
 }
 
 .secondary:hover {
-    background-color: cadetblue;
+    background-color: cornflowerblue;
+    color: white;
 }
 
 
