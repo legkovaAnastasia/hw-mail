@@ -1,10 +1,15 @@
 .spanBlock {
+    margin: 25px;
 }
 
 .span {
+    margin-left: 15px;
+    color: dodgerblue;
 }
 
 .input {
+    margin: 25px;
+    color: black;
 }
 
 .pen {
