@@ -1,2 +1,13 @@
+.all{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
 .container {
+    margin: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
 }

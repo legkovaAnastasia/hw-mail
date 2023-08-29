@@ -1,4 +1,6 @@
 .radio {
+    display: flex;
+    color: black;
 }
 
 .radio::before {

@@ -1,4 +1,12 @@
+.all{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
 .buttonsContainer {
+    margin: 25px;
+
 }
 
 .editableSpanContainer {
