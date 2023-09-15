@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hw-mail/static/css/main.bdf828f3.css",
-    "main.js": "/hw-mail/static/js/main.1eb2a1aa.js",
+    "main.js": "/hw-mail/static/js/main.942bfacd.js",
     "static/js/787.66cb4309.chunk.js": "/hw-mail/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw-mail/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/hw-mail/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
@@ -11,11 +11,11 @@
     "index.html": "/hw-mail/index.html",
     "static/media/burger.svg": "/hw-mail/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
     "main.bdf828f3.css.map": "/hw-mail/static/css/main.bdf828f3.css.map",
-    "main.1eb2a1aa.js.map": "/hw-mail/static/js/main.1eb2a1aa.js.map",
+    "main.942bfacd.js.map": "/hw-mail/static/js/main.942bfacd.js.map",
     "787.66cb4309.chunk.js.map": "/hw-mail/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdf828f3.css",
-    "static/js/main.1eb2a1aa.js"
+    "static/js/main.942bfacd.js"
   ]
 }
