@@ -5,6 +5,8 @@
 }
 
 .users {
+    width: 300px;
+    border-collapse:collapse;
 }
 
 .buttonsContainer {
@@ -14,10 +16,14 @@
 }
 
 .thead {
+    background-color: lightblue;
+    font-weight: bold;
 }
 
 .nameCol {
+    margin-right: 20px;
 }
 
 .ageCol {
+    font-weight: bold;
 }
