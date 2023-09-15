@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hw-mail/static/css/main.ce38cb30.css",
-    "main.js": "/hw-mail/static/js/main.c3a486b7.js",
+    "main.css": "/hw-mail/static/css/main.bdf828f3.css",
+    "main.js": "/hw-mail/static/js/main.0a3cd833.js",
     "static/js/787.66cb4309.chunk.js": "/hw-mail/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw-mail/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/hw-mail/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
@@ -10,12 +10,12 @@
     "static/media/checked.svg": "/hw-mail/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/hw-mail/index.html",
     "static/media/burger.svg": "/hw-mail/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.ce38cb30.css.map": "/hw-mail/static/css/main.ce38cb30.css.map",
-    "main.c3a486b7.js.map": "/hw-mail/static/js/main.c3a486b7.js.map",
+    "main.bdf828f3.css.map": "/hw-mail/static/css/main.bdf828f3.css.map",
+    "main.0a3cd833.js.map": "/hw-mail/static/js/main.0a3cd833.js.map",
     "787.66cb4309.chunk.js.map": "/hw-mail/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce38cb30.css",
-    "static/js/main.c3a486b7.js"
+    "static/css/main.bdf828f3.css",
+    "static/js/main.0a3cd833.js"
   ]
 }
