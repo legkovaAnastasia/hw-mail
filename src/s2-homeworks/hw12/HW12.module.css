@@ -19,5 +19,10 @@ html {
 }
 
 .select {
-
+    background-color: var(--background);
+    color: var(--color);
+}
+.hwTitle {
+    background-color: var(--background);
+    color: var(--color);
 }

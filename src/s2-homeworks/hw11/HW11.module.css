@@ -2,7 +2,10 @@
 }
 
 .wrapper {
+width: 300px;
+    margin-left: 30px;
 }
 
 .number {
+    margin: 5px;
 }
