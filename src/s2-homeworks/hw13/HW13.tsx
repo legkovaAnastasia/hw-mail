@@ -19,6 +19,7 @@ const HW13 = () => {
     const [text, setText] = useState('')
     const [info, setInfo] = useState('')
     const [image, setImage] = useState('')
+    const [isDisabled, setIsDisabled] = useState(false)
 
     const send = (x?: boolean | null) => () => {
         const url =
@@ -26,10 +27,11 @@ const HW13 = () => {
                 ? 'https://xxxxxx.ccc' // имитация запроса на не корректный адрес
                 : 'https://samurai.it-incubator.io/api/3.0/homework/test'
 
-        setCode(code)
-        setImage(image)
-        setText(text)
+        setCode('')
+        setImage('')
+        setText('')
         setInfo('...loading')
+        setIsDisabled(true)
 
         axios
             .post(url, {success: x})
@@ -43,9 +45,6 @@ const HW13 = () => {
             })
             .catch((e) => {
                 // дописать
-                // console.log(e)
-                console.log(e.response.status)
-
                 if (e.response.status === 500) {
                     setCode('Код 500!')
                     setImage(error500)
@@ -58,7 +57,7 @@ const HW13 = () => {
                     setText(e.response.data.errorText)
                     setInfo(e.response.data.info)
                 }
-                if (!e.response.status){
+                if (e.response.status===0){
                     setCode('Error!')
                     setImage(errorUnknown)
                     setText(e.message)
@@ -66,6 +65,7 @@ const HW13 = () => {
                 }
 
             })
+            .finally(()=>setIsDisabled(false))
     }
 
     return (
@@ -79,6 +79,7 @@ const HW13 = () => {
                         onClick={send(true)}
                         xType={'secondary'}
                         // дописать
+                        disabled={isDisabled}
 
                     >
                         Send true
@@ -88,7 +89,7 @@ const HW13 = () => {
                         onClick={send(false)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={isDisabled}
                     >
                         Send false
                     </SuperButton>
@@ -97,6 +98,7 @@ const HW13 = () => {
                         onClick={send(undefined)}
                         xType={'secondary'}
                         // дописать
+                        disabled={isDisabled}
 
                     >
                         Send undefined
@@ -106,7 +108,7 @@ const HW13 = () => {
                         onClick={send(null)} // имитация запроса на не корректный адрес
                         xType={'secondary'}
                         // дописать
-
+                        disabled={isDisabled}
                     >
                         Send null
                     </SuperButton>
