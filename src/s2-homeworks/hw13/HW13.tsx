@@ -26,9 +26,9 @@ const HW13 = () => {
                 ? 'https://xxxxxx.ccc' // имитация запроса на не корректный адрес
                 : 'https://samurai.it-incubator.io/api/3.0/homework/test'
 
-        setCode('')
-        setImage('')
-        setText('')
+        setCode(code)
+        setImage(image)
+        setText(text)
         setInfo('...loading')
 
         axios
@@ -37,10 +37,33 @@ const HW13 = () => {
                 setCode('Код 200!')
                 setImage(success200)
                 // дописать
+                setText(res.statusText)
+                setInfo('')
 
             })
             .catch((e) => {
                 // дописать
+                // console.log(e)
+                console.log(e.response.status)
+
+                if (e.response.status === 500) {
+                    setCode('Код 500!')
+                    setImage(error500)
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
+                }
+                if (e.response.status === 400) {
+                    setCode('Код 400!')
+                    setImage(error400)
+                    setText(e.response.data.errorText)
+                    setInfo(e.response.data.info)
+                }
+                if (!e.response.status){
+                    setCode('Error!')
+                    setImage(errorUnknown)
+                    setText(e.message)
+                    setInfo(e.name)
+                }
 
             })
     }

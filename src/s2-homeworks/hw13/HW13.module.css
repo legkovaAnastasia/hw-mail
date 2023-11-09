@@ -2,15 +2,22 @@
 }
 
 .responseContainer {
+    display: flex;
 }
 
 .imageContainer {
+    width: 500px;
 }
 
 .image {
 }
 
-.textContainer{
+.textContainer {
+    width: 500px;
+    float: right;
+    text-align: center;
+    /*vertical-align: center;*/
+    align-items: center;
 }
 
 .code {
@@ -18,5 +25,6 @@
 
 .text {
 }
+
 .info {
 }
