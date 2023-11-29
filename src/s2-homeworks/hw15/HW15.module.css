@@ -3,23 +3,30 @@
 }
 
 .developer {
+    width: 50vw;
 
 }
 
 .techHeader {
     width: 50vw;
+    cursor: pointer;
 }
 
 .developerHeader {
-
+    width: 50vw;
 }
 
 .row {
     display: flex;
+    margin-left: 20px;
 }
 
 .rowHeader {
     display: flex;
+    background-color: #DDEEFF;
+    margin-left: 20px;
+    cursor: pointer;
+
 }
 
 .loading {
